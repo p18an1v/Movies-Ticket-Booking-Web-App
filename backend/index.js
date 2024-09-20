@@ -16,8 +16,8 @@ dotenv.config();
 
 const app = express();
 
-const MONGODB_URI = "mongodb+srv://viraj089:%40Jaishreeram@cluster0.iepad.mongodb.net/";
-const DB_NAME = "signIn_signUp";
+const MONGODB_URI = "--MongoDB connection Link--";
+const DB_NAME = "--Database Name--";
 
 const connectDB = async () => {
     try {

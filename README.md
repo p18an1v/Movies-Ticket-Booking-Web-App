@@ -60,13 +60,16 @@ To run this project, you need:
 
 Create a `.env` file in the root directory and configure the following variables:
 
-```plaintext
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-EMAIL_USER=your_gmail_address
-EMAIL_PASS=your_gmail_password
+-MONGO_URI=your_mongodb_connection_string
+-JWT_SECRET=your_jwt_secret
+-RAZORPAY_KEY_ID=your_razorpay_key_id
+-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+-EMAIL_USER=your_gmail_address
+-EMAIL_PASS=your_gmail_password
+
+## Index.js setUp
+-const MONGODB_URI = "--MongoDB connection Link--";
+-const DB_NAME = "--Database Name--";
 
 ## API Endpoints
 
